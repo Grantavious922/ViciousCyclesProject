@@ -1,8 +1,100 @@
-body { 
-    background-color: #E7FBFB;
+body {
+  background-color:#9fb4ed;
 }
 h1 {
-    font-size: 4em;
+    font-size: 54px;
+    border: 2px solid black;
     text-align: center;
-    color: #010B5B;
+    font-family:fantasy;
+    background-color: orangered;
+    font-style: italic;
+    text-decoration:line-through;
+    text-decoration-thickness:2px;
+    text-decoration-color:black;
+    text-decoration-style: double;
+
+ 
+
+}
+div .container {
+max-width: max-content;
+max-height: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav  {
+  text-align: center;
+  font-size: large;
+  align-content: space-between;
+  }
+  nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display:flex;
+  justify-content: space-around;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+h2 {
+font-family: fantasy;
+text-align: center;
+text-decoration: underline;
+font-size: 28px;
+}
+.div2 {
+  display: flex;
+  justify-content: left;
+}
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+h6{
+  font-size:16px;
+  font-weight: bold;
+}
+section {
+display: flex;
+justify-content: space-between;
+}
+body {
+  font-family: "fantasy";
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  color: black;
+  max-width: none;
+  margin-inline: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  font-size:16px;
+  font-weight: bold;
+}
+.box {
+  min-width: 100px;
+  background-color: #f59342;
+  display: flex;
+justify-content: space-evenly;
+font-size: 24px;
+text-decoration: underline;
+}
+.container2 {
+  background-color:orangered;
+  color: black;
+  max-width: none;
+  margin-inline: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+ 
 }
